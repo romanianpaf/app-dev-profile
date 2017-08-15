@@ -12,6 +12,7 @@
 		1BA525011F4210C800CB393A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BA524FF1F4210C800CB393A /* Main.storyboard */; };
 		1BA525031F4210C800CB393A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BA525021F4210C800CB393A /* Assets.xcassets */; };
 		1BA525061F4210C800CB393A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BA525041F4210C800CB393A /* LaunchScreen.storyboard */; };
+		1BB1C2A71F42E7C1003DD353 /* RoundedImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB1C2A61F42E7C1003DD353 /* RoundedImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		1BA525021F4210C800CB393A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1BA525051F4210C800CB393A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1BA525071F4210C800CB393A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BB1C2A61F42E7C1003DD353 /* RoundedImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		1BA524FA1F4210C800CB393A /* dev-profile */ = {
 			isa = PBXGroup;
 			children = (
+				1BB1C2A51F42E781003DD353 /* Views */,
 				1BA524FB1F4210C800CB393A /* AppDelegate.swift */,
 				1BA524FD1F4210C800CB393A /* ViewController.swift */,
 				1BA524FF1F4210C800CB393A /* Main.storyboard */,
@@ -62,6 +65,14 @@
 				1BA525071F4210C800CB393A /* Info.plist */,
 			);
 			path = "dev-profile";
+			sourceTree = "<group>";
+		};
+		1BB1C2A51F42E781003DD353 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1BB1C2A61F42E7C1003DD353 /* RoundedImage.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BB1C2A71F42E7C1003DD353 /* RoundedImage.swift in Sources */,
 				1BA524FE1F4210C800CB393A /* ViewController.swift in Sources */,
 				1BA524FC1F4210C800CB393A /* AppDelegate.swift in Sources */,
 			);
